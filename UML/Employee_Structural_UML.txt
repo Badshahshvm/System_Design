@@ -1,0 +1,64 @@
++-------------------+
+|     Employee      |
++-------------------+
+| - employeeId      |
+| - name            |
+| - email           |
+| - phone           |
+| - designation     |
+| - salary          |
++-------------------+
+| + viewProfile()   |
+| + updateDetails() |
++-------------------+
+
++-------------------+
+|   Department      |
++-------------------+
+| - deptId          |
+| - deptName        |
+| - location        |
++-------------------+
+| + addEmployee()   |
+| + removeEmployee()|
++-------------------+
+
++-------------------+
+|      Manager      |
++-------------------+
+| - teamSize        |
++-------------------+
+| + assignTask()    |
+| + evaluate()      |
++-------------------+
+
++-------------------+
+|      HR           |
++-------------------+
+| - policies        |
++-------------------+
+| + recruit()       |
+| + generatePayroll()|
++-------------------+
+
++-------------------+
+|    Attendance     |
++-------------------+
+| - attendanceId    |
+| - date            |
+| - status          |
++-------------------+
+| + markAttendance()|
+| + getReport()     |
++-------------------+
+
++-------------------+
+|    Payroll        |
++-------------------+
+| - payrollId       |
+| - month           |
+| - netSalary       |
++-------------------+
+| + generateSlip()  |
+| + calculateTax()  |
++-------------------+
